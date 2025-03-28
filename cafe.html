@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Cafe Point</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.center {
+    list-style: none;
+    display: flex;
+}
+
+.center li {
+    margin: 0 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+    align-items: center;
+    display: flex;
+}
+
+.center li:hover {
+    color: #d2a679;
+}
+
+.book-table {
+    background-color: #b08d6e;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+</style>
+<body>
+
+    <div class="header">
+        <div class="text">SMILE CAFE POINT</div>
+
+        <ul class="center">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Shop</li>
+            <li>Contact</li>
+            <li class="book-table">Book Table</li>
+        </ul>
+
+        <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+</body>
+</html>
